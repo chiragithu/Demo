@@ -26,7 +26,7 @@ public class userRest {
 	
 	@GetMapping("/home")
 	public String home(Model model) {
-		System.out.ptintln("hi ");
+		
 		return "homepage";
 	}
 	@GetMapping("/get")
